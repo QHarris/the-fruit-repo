@@ -1,0 +1,351 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.animation {
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+}
+
+.title-delay {
+    animation-delay: 1.5s;
+}
+
+.subtitle-delay {
+    animation-delay: 1.8s;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgba(0, 0, 0, 0.348);
+  }
+  
+  /* selected link */
+  a:active {
+    color: black;
+  }
+
+  /* @media screen and (max-device-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+ 
+@media screen and (max-device-width: 992px) {
+    html {
+        font-size: 35px;
+    }
+} */
+
+  body {
+    font-family: 'IM Fell Great Primer', serif;
+    margin: 0%;
+  }
+  
+  p{
+      font-family: 'IM Fell Great Primer', serif;
+      font-size: 1em;
+      letter-spacing: 0.03em;
+      position: absolute;
+      text-align: center;
+  }
+  
+  a{
+      font-family: 'IM Fell Great Primer', serif;
+      font-weight: 400;
+      font-size: 1em;
+      line-height: 1.25em;
+      letter-spacing: 0.03em;
+      position:absolute;
+      top:1.25em;
+      right:1.25em;
+      text-align: center;
+      top: 4000px;
+      padding-bottom: 1.25em;
+  }
+
+  #directions {
+    text-align: center;
+    font-size: 1em;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+#title-text {
+    text-align: center;
+    font-size: 3em;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+
+#existence {
+    position: absolute;
+    text-align: left;
+    top: 20%;
+    left: 11.5%;
+}
+
+#existencesub {
+    position: absolute;
+    top: 24%;
+    left: 11%;
+    width: 50px;
+    height: 30px;
+    opacity: 0%;
+}
+
+#possibility {
+    position: absolute;
+    text-align: left;
+    top: 30%;
+    left: 69.4%;
+    font-size: 1.4em;
+}
+
+#possibilitysub {
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    width: 50px;
+    height: 30px;
+    opacity: 0%;
+}
+
+#individual {
+    position: absolute;
+    text-align: left;
+    top: 66%;
+    left: 90.6%;
+    font-size: 1em;
+}
+
+#individualsub {
+    position: absolute;
+    top: 70%;
+    left: 90%;
+    width: 50px;
+    height: 30px;
+    opacity: 0%;
+}
+
+#lesson {
+    position: absolute;
+    text-align: left;
+    top: 140%;
+    left: 10.5%;
+    font-size: 1.5em;
+}
+
+#lessonsub {
+    position: absolute;
+    top: 145%;
+    left: 10%;
+    width: 50px;
+    height: 30px;
+    opacity: 0%;
+}
+
+#beautifully {
+    position: absolute;
+    text-align: left;
+    top: 196%;
+    left: 43%;
+    font-size: 1em;
+}
+
+#beautifullysub {
+    position: absolute;
+    top: 200%;
+    left: 43%;
+    width: 50px;
+    height: 30px;
+    opacity: 0%;
+}
+
+#semicolon {
+    position: absolute;
+    text-align: left;
+    top: 228%;
+    left: 85.5%;
+    font-size: 1.6em;
+}
+
+#semicolonsub {
+    position: absolute;
+    top: 234%;
+    left: 87%;
+    width: 50px;
+    height: 30px;
+    opacity: 0%;
+}
+
+#kings {
+    position: absolute;
+    text-align: left;
+    top: 262%;
+    left: 23.5%;
+    font-size: 1em;
+}
+
+#kingssub {
+    position: absolute;
+    top: 266%;
+    left: 21.5%;
+    width: 50px;
+    height: 30px;
+    opacity: 0%;
+}
+
+#intervenes {
+    position: absolute;
+    text-align: left;
+    top: 292%;
+    left: 62%;
+    font-size: 1.5em;
+}
+
+#intervenessub {
+    position: absolute;
+    top: 297%;
+    left: 63.5%;
+    width: 50px;
+    height: 30px;
+    opacity: 0%;
+}
+
+#speak {
+    position: absolute;
+    text-align: left;
+    top: 348%;
+    left: 87%;
+    font-size: 1em;
+}
+
+#speaksub {
+    position: absolute;
+    top: 352%;
+    left: 86%;
+    width: 50px;
+    height: 30px;
+    opacity: 0%;
+}
+
+#origins {
+    position: absolute;
+    text-align: left;
+    top: 398%;
+    left: 46.5%;
+    font-size: 1em;
+}
+
+#originssub {
+    position: absolute;
+    top: 401%;
+    left: 45%;
+    width: 50px;
+    height: 30px;
+    opacity: 0%;
+}
+
+#idea {
+    position: absolute;
+    text-align: left;
+    top: 386%;
+    left: 9.5%;
+    font-size: 1.3em;
+}
+
+#ideasub {
+    position: absolute;
+    top: 390%;
+    left: 9%;
+    width: 50px;
+    height: 30px;
+    opacity: 0%;
+}
+
+#mind {
+    position: absolute;
+    text-align: left;
+    top: 93%;
+    left: 29.7%;
+    font-size: 1.3em;
+}
+
+#mindsub {
+    position: absolute;
+    top: 97%;
+    left: 28%;
+    width: 50px;
+    height: 30px;
+    opacity: 0%;
+}
+
+#begin {
+    position: absolute;
+    text-align: left;
+    top: 118%;
+    left: 77.5%;
+    font-size: 1.3em;
+}
+
+#beginsub {
+    position: absolute;
+    top: 122%;
+    left: 76.5%;
+    width: 50px;
+    height: 30px;
+    opacity: 0%;
+}
+
+#the {
+    position: absolute;
+    text-align: left;
+    top: 429%;
+    left: 79%;
+    font-size: 1.7em;
+}
+
+#thesub {
+    position: absolute;
+    top: 435%;
+    left: 78.5%;
+    width: 50px;
+    height: 30px;
+    opacity: 0%;
+}
+
+#end {
+    position: absolute;
+    text-align: left;
+    top: 431%;
+    left: 24.2%;
+    font-size: 1.7em;
+}
+
+#endsub {
+    position: absolute;
+    top: 437%;
+    left: 23%;
+    width: 50px;
+    height: 30px;
+    opacity: 0%;
+}

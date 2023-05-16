@@ -1,0 +1,92 @@
+/* unvisited link */
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgba(0, 0, 0, 0.348);
+  }
+  
+  /* selected link */
+  a:active {
+    color: black;
+  }
+
+.fade-in-image { 
+    animation: fadeIn 3s; 
+}
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+p{
+    font-family: 'IM Fell Great Primer', serif;
+    font-size: 1.5em;
+    letter-spacing: 0.03em;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 485px;
+    height: 211px;
+    text-align: center;
+    animation: fadeIn 2s;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    font-family: 'IM Fell Great Primer', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    display: flex;
+    text-align: center;
+    color: black;
+    position:absolute;
+    bottom:20px;
+    right:20px;
+}
+
+#ring1 {
+    margin: 0;
+    position: absolute;
+    width: 680px;
+    height: 680px;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#ring2 {
+    margin: 0;
+    position: absolute;
+    width: 680px;
+    height: 680px;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#ring3 {
+    margin: 0;
+    position: absolute;
+    width: 680px;
+    height: 680px;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

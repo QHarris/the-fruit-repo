@@ -1,0 +1,50 @@
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgba(0, 0, 0, 0.348);
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+body {
+  font-family: 'IM Fell Great Primer', serif;
+  margin: 0%;
+}
+
+p{
+    font-family: 'IM Fell Great Primer', serif;
+    font-size: 1em;
+    letter-spacing: 0.03em;
+    position: absolute;
+    bottom: .01em;
+}
+
+a{
+    font-family: 'IM Fell Great Primer', serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.25em;
+    letter-spacing: 0.03em;
+    display: flex;
+    text-align: center;
+    color: black;
+    position:absolute;
+    top:1.25em;
+    right:1.25em;
+}
+
+#directions {
+  top: 0%;
+  left: 1%;
+}

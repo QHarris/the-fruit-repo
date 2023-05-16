@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+    </head>
+</html>
+
+<body>
+    <pre class="one">
+                        I think it is easier to
+                talk about the end of a poem
+ than it is to talk about its beginning. Because the poem
+         ends on the page, but it begins off the page, 
+                it begins in the mind.   
+    </pre>
+
+    <pre class="two">
+                         But there is no
+            book I know of on the subject of
+                         how poems begin. 
+    </pre>
+
+    <pre class="three">
+                                    The mind acts,
+                                the mind wills a poem,
+              often against our own will; somehow this happens,
+                    somehow a poem gets written in the middle of a
+                 chaotic holiday party that  has just run out of ice, 
+                                          and it's your house. 
+        
+    </pre>
+
+    <pre class="four">
+                               How can
+                     the origin be traced
+             when there is no form or shape
+                that precedes it to trace?  
+    </pre>
+
+    <pre class="five">
+                                   It is exactly like tracing
+                             the moment of the big bang—
+             we can go back to a nanosecond before the beginning
+                         before the universe burst into being,
+                  but we can’t go back to the precise beginning
+                because that would precede knowledge,
+                    and we can’t “know” anything before “knowing”
+                                          itself was born.    
+    </pre>
+
+    <pre class="six">
+
+                        In poetry, the 
+                    number of  beginnings 
+          so far exceeds the number of endings that 
+                  we cannot even conceive of it.
+    </pre>
+
+    <pre class="seven">
+                     That nothing 
+                can precede action—
+        no breath before act, no thought before act, 
+                   no pervasive love before
+                     some kind of act.
+    </pre>
+
+    <pre class="eight">
+             I believe the 
+         poem is an act of 
+                the mind.
+    </pre>
+   
+    <pre class="nine">
+                                Not every poem is finished—
+                            one poem is abandoned, 
+         another catches fire and is carried away by the wind, 
+              which may be an ending, but it is the ending of 
+                         a poem without an end. 
+    </pre>
+    
+    <pre class="ten">
+                     In the beginning was the Word.
+             Western civilization rests upon those words. 
+     And yet there is a lively group of thinkers who believe that
+                     in the beginning was the Act. 
+    </pre>
+
+
+
+    <!-- simple java function to make vertical scroll go auto horizontal for user -->
+    <div class="cont-box">
+        <a class="cont-text" href="o-5/index.html"><pre><i>continue your<br>sentence</a></i></pre>
+    </div> 
+
+    <script>
+        function transformScroll(event) {
+        if (!event.deltaY) {
+            return;
+        }
+
+        event.currentTarget.scrollLeft += event.deltaY + event.deltaX;
+        event.preventDefault();
+        }
+
+        var element = document.scrollingElement || document.documentElement;
+        element.addEventListener('wheel', transformScroll);
+    </script>
+</body>

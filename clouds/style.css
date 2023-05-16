@@ -1,0 +1,108 @@
+p{
+    font-family: 'IM Fell Great Primer', serif;
+    font-size: 1em;
+    letter-spacing: 0.03em;
+    position: absolute;
+    bottom: .01em;
+}
+
+pre {
+    font-family: 'IM Fell Great Primer', serif;
+    font-size: 1em;
+}
+
+.one {
+    position: absolute;
+    top: 5vw;
+    left: 10vw;
+}
+
+.two {
+    position: absolute;
+    top: 40vw;
+    left: 2vw;
+}
+
+.three {
+    position: absolute;
+    top: 23vw;
+    left: 40vw;
+}
+
+.four {
+    position: absolute;
+    top: 13vw;
+    left: 80vw;
+}
+
+.five {
+    position: absolute;
+    top: 30vw;
+    left: 100vw;
+}
+
+.six {
+    position: absolute;
+    top: 1vw;
+    left: 125vw;
+}
+
+.seven {
+    position: absolute;
+    top: 42vw;
+    left: 145vw;
+}
+
+.eight {
+    position: absolute;
+    top: 24vw;
+    left: 140vw;
+}
+
+.nine {
+    position: absolute;
+    top: 12vw;
+    left: 164vw;
+}
+
+.ten {
+    position: absolute;
+    top: 33vw;
+    left: 194vw;
+    padding-right: 1.2em;
+}
+
+a{
+    font-family: 'IM Fell Great Primer', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: black;
+    position:absolute;
+    top: 1vw;
+    left: 222vw;
+    padding-right: 1.2em;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgba(0, 0, 0, 0.348);
+  }
+  
+  /* selected link */
+  a:active {
+    color: black;
+  }
+

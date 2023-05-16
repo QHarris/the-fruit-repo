@@ -1,0 +1,55 @@
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgba(0, 0, 0, 0.348);
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  }
+
+p{
+  font-family: 'IM Fell Great Primer', serif;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 155px;
+  width: 467px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 2s;
+}
+
+.cont-text {
+  font-family: 'IM Fell Great Primer', serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  display: flex;
+  text-align: center;
+  color: black;
+  position:absolute;
+  bottom:20px;
+  right:20px;
+}
